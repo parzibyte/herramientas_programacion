@@ -46,6 +46,8 @@ comentarios = {
     },
     'ts': comentario_comun,
     'js': comentario_comun,
+    'ino': comentario_comun,
+    'java': comentario_comun,
     'php': {
         'inicio': "<?php\n/*",
         'fin': '*/ ?>',
