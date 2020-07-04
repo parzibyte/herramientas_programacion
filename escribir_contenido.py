@@ -1,6 +1,5 @@
 """
 
-    Programado por Luis Cabrera Benito 
   ____          _____               _ _           _       
  |  _ \        |  __ \             (_) |         | |      
  | |_) |_   _  | |__) |_ _ _ __ _____| |__  _   _| |_ ___ 
@@ -10,17 +9,21 @@
          __/ |                               __/ |        
         |___/                               |___/         
     
-    
-    Blog:       https://parzibyte.me/blog
-    Ayuda:      https://parzibyte.me/blog/contrataciones-ayuda/
-    Contacto:   https://parzibyte.me/blog/contacto/
+____________________________________
+/ Si necesitas ayuda, contáctame en \
+\ https://parzibyte.me               /
+ ------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 """
 import argparse
 import glob
 import os
 import sys
 creditos = """
-    Programado por Luis Cabrera Benito 
   ____          _____               _ _           _       
  |  _ \        |  __ \             (_) |         | |      
  | |_) |_   _  | |__) |_ _ _ __ _____| |__  _   _| |_ ___ 
@@ -30,10 +33,15 @@ creditos = """
          __/ |                               __/ |        
         |___/                               |___/         
     
-    
-    Blog:       https://parzibyte.me/blog
-    Ayuda:      https://parzibyte.me/blog/contrataciones-ayuda/
-    Contacto:   https://parzibyte.me/blog/contacto/
+____________________________________
+/ Si necesitas ayuda, contáctame en \\
+\ https://parzibyte.me               /
+ ------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\\
+                ||----w |
+                ||     ||
 """
 comentario_comun = {
     'inicio': '/*',
@@ -77,10 +85,10 @@ directorio = argumentos.directorio_archivos
 os.chdir(directorio)
 for nombre_archivo in glob.glob("*."+argumentos.extension):
     ruta = directorio+"/"+nombre_archivo
-    with open(ruta, "r") as archivo:
+    with open(ruta, "r", encoding="utf-8") as archivo:
         contenido = comentarios_archivo_actual["inicio"] + "\n" + \
             creditos + \
             comentarios_archivo_actual["fin"] + "\n" + archivo.read()
-    with open(ruta, "w") as archivo:
+    with open(ruta, "w", encoding="utf-8") as archivo:
         archivo.write(contenido)
     print("Agregados créditos a {}".format(ruta))
