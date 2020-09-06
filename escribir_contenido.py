@@ -18,6 +18,8 @@ ____________________________________
             (__)\       )\/\
                 ||----w |
                 ||     ||
+Creado por Parzibyte (https://parzibyte.me). Este encabezado debe mantenerse intacto,
+excepto si este es un proyecto de un estudiante.
 """
 import argparse
 import glob
@@ -42,6 +44,8 @@ ____________________________________
             (__)\       )\/\\
                 ||----w |
                 ||     ||
+Creado por Parzibyte (https://parzibyte.me). Este encabezado debe mantenerse intacto,
+excepto si este es un proyecto de un estudiante.
 """
 comentario_comun = {
     'inicio': '/*',
@@ -70,6 +74,8 @@ comentarios = {
     },
     'go': comentario_comun,
     'c': comentario_comun,
+    'h': comentario_comun,
+    'css': comentario_comun,
 }
 parser = argparse.ArgumentParser()
 parser.add_argument("extension", help="Extensión de los archivos a modificar")
