@@ -44,8 +44,12 @@ ____________________________________
             (__)\       )\/\\
                 ||----w |
                 ||     ||
-Creado por Parzibyte (https://parzibyte.me). Este encabezado debe mantenerse intacto,
-excepto si este es un proyecto de un estudiante.
+Creado por Parzibyte (https://parzibyte.me).
+------------------------------------------------------------------------------------------------
+Si el código es útil para ti, puedes agradecerme siguiéndome: https://parzibyte.me/blog/sigueme/
+Y compartiendo mi blog con tus amigos
+También tengo canal de YouTube: https://www.youtube.com/channel/UCroP4BTWjfM0CkGB6AFUoBg?sub_confirmation=1
+------------------------------------------------------------------------------------------------
 """
 comentario_comun = {
     'inicio': '/*',
