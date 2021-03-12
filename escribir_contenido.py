@@ -46,9 +46,15 @@ ____________________________________
                 ||     ||
 Creado por Parzibyte (https://parzibyte.me).
 ------------------------------------------------------------------------------------------------
-Si el código es útil para ti, puedes agradecerme siguiéndome: https://parzibyte.me/blog/sigueme/
-Y compartiendo mi blog con tus amigos
+            | IMPORTANTE |
+Si vas a borrar este encabezado, considera:
+Seguirme: https://parzibyte.me/blog/sigueme/
+Y compartir mi blog con tus amigos
 También tengo canal de YouTube: https://www.youtube.com/channel/UCroP4BTWjfM0CkGB6AFUoBg?sub_confirmation=1
+Twitter: https://twitter.com/parzibyte
+Facebook: https://facebook.com/parzibyte.fanpage
+Instagram: https://instagram.com/parzibyte
+Hacer una donación vía PayPal: https://paypal.me/LuisCabreraBenito
 ------------------------------------------------------------------------------------------------
 """
 comentario_comun = {
