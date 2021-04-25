@@ -84,6 +84,7 @@ comentarios = {
     },
     'go': comentario_comun,
     'c': comentario_comun,
+    'cpp': comentario_comun,
     'h': comentario_comun,
     'css': comentario_comun,
 }
